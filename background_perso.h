@@ -15,7 +15,7 @@ typedef struct {
    
     SDL_Surface *image;
     SDL_Rect posimg;
-} background_perso2;
+} background_perso77777;
 
 
 typedef struct {
