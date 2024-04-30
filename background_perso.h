@@ -18,6 +18,13 @@ typedef struct {
 } background_perso2;
 
 
+typedef struct {
+   
+    SDL_Surface *image;
+    SDL_Rect posimg;
+} background_perso3;
+
+
 
 void initBackg_perso(background_perso *b);
 void cleanBack_perso(background_perso *b);
