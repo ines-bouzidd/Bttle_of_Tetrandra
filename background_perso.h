@@ -11,7 +11,7 @@ typedef struct {
     SDL_Rect posimg;
 } background_perso;
 
-
+//i am am main
 
 typedef struct {
    
