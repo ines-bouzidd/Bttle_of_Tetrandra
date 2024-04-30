@@ -11,11 +11,6 @@ typedef struct {
     SDL_Rect posimg;
 } background_perso;
 
-typedef struct {
-   
-    SDL_Surface *image;
-    SDL_Rect posimg;
-} background_perso77777;
 
 
 typedef struct {
