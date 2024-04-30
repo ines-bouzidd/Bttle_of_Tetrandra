@@ -16,7 +16,7 @@ typedef struct {
 
 void initBackg_perso(background_perso *b);
 void cleanBack_perso(background_perso *b);
-void afficherBack_perso(background_perso *b,SDL_Surface *ecran);
+void afficherBack_perso(background_perso *b,SDL_Surface *ecran);//AFFICH
 
 #endif // GAME_H
 
