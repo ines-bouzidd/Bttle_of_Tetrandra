@@ -11,12 +11,18 @@ typedef struct {
     SDL_Rect posimg;
 } background_perso;
 
+typedef struct {
+   
+    SDL_Surface *image;
+    SDL_Rect posimg;
+} background_perso2;
 
 
 
 void initBackg_perso(background_perso *b);
 void cleanBack_perso(background_perso *b);
-void afficherBack_perso(background_perso *b,SDL_Surface *ecran);//AFFICH
+void afficherBack_perso(background_perso *b,SDL_Surface *ecran);
+
 
 #endif // GAME_H
 
